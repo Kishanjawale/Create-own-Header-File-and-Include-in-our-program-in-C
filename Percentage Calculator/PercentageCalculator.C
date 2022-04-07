@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 #include"Percentage.H"      //User Defined Header File 
 
 
@@ -40,11 +40,11 @@ int main()  //Entry Point Function
     fTotalMarks = fBio+fChem+fMath+fEng;       
     printf("Total Marks of All Subject:%f\n",fTotalMarks);
 
-    fpercentage = CalculatePer(fTotalMarks);  //Calling Function CalculatePer
+    fpercentage = CalculatePer(fTotalMarks);  //Calling Function CalculatePer which is present in user defiend header file 
 
     printf("Total Percentage=%f\n",fpercentage); 
     
-    CheckGrade(fpercentage);        //Calling Function CheckGrade
+    CheckGrade(fpercentage);        //Calling Function CheckGrade which is present in user defiend header file
     
     return 0; 
 }
