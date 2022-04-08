@@ -48,13 +48,13 @@ int main() //Entry point Function
                 switch (ino1)
                 {
                     case 1:
-                            RectArea();  
+                            RectArea();  //Calling the Function from header file
                             abort();
                     break;
 
                     
                     case 2:
-                        RectPerimeter();
+                        RectPerimeter();//Calling the Function from header file
                         abort(); 
                     break;
 
@@ -77,13 +77,13 @@ int main() //Entry point Function
                 switch (ino2)
                 {
                     case 1:
-                            SquareArea(); 
+                            SquareArea(); //Calling the Function from header file
                             abort();
                     break;
 
 
                     case 2:
-                        SquarePerimeter();
+                        SquarePerimeter(); //Calling the Function from header file
                         abort(); 
                     break;
 
@@ -105,13 +105,13 @@ int main() //Entry point Function
                 switch (ino3)
                 {
                     case 1 :
-                            CircleArea();  
+                            CircleArea();  //Calling the Function from header file
                             abort();
                     break;
                     
                     
                     case 2 :
-                        CirclePerimeter(); 
+                        CirclePerimeter(); //Calling the Function from header file
                         abort();  
                     break;
 
