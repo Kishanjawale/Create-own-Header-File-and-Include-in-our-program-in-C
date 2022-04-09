@@ -25,6 +25,13 @@ float PeriCircle(float Radius)
     return PeriCircle; 
 }
 
+float PeriTriangle(float side1,float side2,float side3)
+{
+        float PeriTriangle=0;
+     PeriTriangle=side1+side2+side3;
+     return PeriTriangle;
+}
+
 
 
 float SquarePerimeter()
@@ -61,5 +68,23 @@ float CirclePerimeter()
     fArea=PeriCircle(fRadius);  //Calling Function PeriCircle()
     cout<<"Perimeter of Circle="<<fArea<<"\n";
 }
+
+
+ float TrianglePerimeter()
+ {
+     float fSide1=0;
+    float fSide2=0;
+    float fSide3=0;
+    float fPeri=0;
+    cout<<"Enter Side2 of Triangle"<<"\n";
+    cin>>fSide1;
+    cout<<"Enter Side3 of Triangle"<<"\n";
+    cin>>fSide2;
+    cout<<"Enter Side1 of Triangle"<<"\n";
+    cin>>fSide3;
+    fPeri=PeriTriangle(fSide1,fSide2,fSide3);   //Calling Function AreaRectangle()
+    cout<<"Perimeter of Triangle="<<fPeri<<"\n";
+ }
+
 
 
